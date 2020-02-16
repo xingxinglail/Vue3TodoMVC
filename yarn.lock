@@ -31,29 +31,29 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.21.tgz#aa44a6363291c7037111c47e4661ad210aded23f"
   integrity sha512-8sRGhbpU+ck1n0PGAUgVrWrWdjSW2aqNeyC15W88GRsMpSwzv6RJGlLhE7s2RhVSOdyDmxbqlWSeThq4/7xqlA==
 
-"@vue/compiler-core@3.0.0-alpha.1":
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.0.0-alpha.1.tgz#963b2c19a5e882726242b32872068f6a23501cfc"
-  integrity sha512-TKWRUtPfeOQmm4fylfgjp5ENf0nWYuWp2nhzXXZdVn+upqNJNw9nX45WhQDSamyhB1inSyjsg/+jQq5FnUC/rQ==
+"@vue/compiler-core@3.0.0-alpha.4":
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@vue/compiler-core/download/@vue/compiler-core-3.0.0-alpha.4.tgz#46d62d0fa70495e0fb3d23dd7b4c57fb4344f410"
+  integrity sha1-RtYtD6cEleD7PSPde0xX+0NE9BA=
   dependencies:
     acorn "^7.1.0"
     estree-walker "^0.8.1"
     source-map "^0.6.1"
 
-"@vue/compiler-dom@3.0.0-alpha.1":
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.0.0-alpha.1.tgz#c928dd61f42d0b90e7e9e9d1dd0e8094475a25fe"
-  integrity sha512-3gEYW/G3FyQtpgARw/eVhfJPiUQchfRdpoRmkFZUDGpnqqw0fRr30u8Bm80JYajH5y3DgYOZbt6yIhy8enNPpw==
+"@vue/compiler-dom@3.0.0-alpha.4":
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@vue/compiler-dom/download/@vue/compiler-dom-3.0.0-alpha.4.tgz#638141bb293f09692f005e8da46bdb64ac680fec"
+  integrity sha1-Y4FBuyk/CWkvAF6NpGvbZKxoD+w=
   dependencies:
-    "@vue/compiler-core" "3.0.0-alpha.1"
+    "@vue/compiler-core" "3.0.0-alpha.4"
 
-"@vue/compiler-sfc@^3.0.0-alpha.1":
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.0.0-alpha.1.tgz#f703abcfca73d39cf79286e58b88fe1cd884967d"
-  integrity sha512-ww8WF5U6zSNiar8YIPLKsiLTmgJWP5O2pskN3gkPd3Uhc+K41fvH1PpH6eSLGH/sYozXNT0iA0sSOErbG2T0BQ==
+"@vue/compiler-sfc@^3.0.0-alpha.4":
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@vue/compiler-sfc/download/@vue/compiler-sfc-3.0.0-alpha.4.tgz#5013249b00f5c81ee1f247bc1b128f3233af4f96"
+  integrity sha1-UBMkmwD1yB7h8ke8GxKPMjOvT5Y=
   dependencies:
-    "@vue/compiler-core" "3.0.0-alpha.1"
-    "@vue/compiler-dom" "3.0.0-alpha.1"
+    "@vue/compiler-core" "3.0.0-alpha.4"
+    "@vue/compiler-dom" "3.0.0-alpha.4"
     consolidate "^0.15.1"
     hash-sum "^2.0.0"
     lru-cache "^5.1.1"
@@ -62,24 +62,25 @@
     postcss-selector-parser "^6.0.2"
     source-map "^0.6.1"
 
-"@vue/reactivity@3.0.0-alpha.1":
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.0.0-alpha.1.tgz#c4d858a97e4a2f249dc15e32f9eaa515161fefc7"
-  integrity sha512-yhH5mZqCt5MCiAAtF9Tv7ofph8erpb54hX6nCBJHotOm/IuR4G4TpQcKs4m0LVsW8EIFjTrE4XI4ekuMqjCXeQ==
+"@vue/reactivity@3.0.0-alpha.4":
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@vue/reactivity/download/@vue/reactivity-3.0.0-alpha.4.tgz#ed09062693a03417ffc909212b3b94fd43c82569"
+  integrity sha1-7QkGJpOgNBf/yQkhKzuU/UPIJWk=
 
-"@vue/runtime-core@3.0.0-alpha.1":
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.0.0-alpha.1.tgz#37fbee2a5b1703df194c2a12576f15af9f64d48e"
-  integrity sha512-oNDjcx/uR+98Omm7o651gwVnUfePh5JySR73ubeENnwZejMnShMwsNrJgLxgn6y5DzbPirIerPbFrXbFBQ9cJA==
+"@vue/runtime-core@3.0.0-alpha.4":
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@vue/runtime-core/download/@vue/runtime-core-3.0.0-alpha.4.tgz#379ff0597e71270bdf8e2becf180b3cf085a36dd"
+  integrity sha1-N5/wWX5xJwvfjivs8YCzzwhaNt0=
   dependencies:
-    "@vue/reactivity" "3.0.0-alpha.1"
+    "@vue/reactivity" "3.0.0-alpha.4"
 
-"@vue/runtime-dom@3.0.0-alpha.1":
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.0.0-alpha.1.tgz#3b07954470e8b33aa22cd1c09c7c67ec567b2ab0"
-  integrity sha512-NOEg4cXykAZFmnBPFZs/ncJh1lXn3/j4VYD9YZn/myn905AxaWYslv71f0lh1eLgMw3yRh3W0Gi1P12U5D2iVA==
+"@vue/runtime-dom@3.0.0-alpha.4":
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/@vue/runtime-dom/download/@vue/runtime-dom-3.0.0-alpha.4.tgz#be7e703bb2b12101cfe250c08e950e410fc1c92e"
+  integrity sha1-vn5wO7KxIQHP4lDAjpUOQQ/ByS4=
   dependencies:
-    "@vue/runtime-core" "3.0.0-alpha.1"
+    "@vue/runtime-core" "3.0.0-alpha.4"
+    csstype "^2.6.8"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -983,6 +984,11 @@ cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
+csstype@^2.6.8:
+  version "2.6.9"
+  resolved "https://registry.npm.taobao.org/csstype/download/csstype-2.6.9.tgz?cache=0&sync_timestamp=1581661619809&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcsstype%2Fdownload%2Fcsstype-2.6.9.tgz#05141d0cd557a56b8891394c1911c40c8a98d098"
+  integrity sha1-BRQdDNVXpWuIkTlMGRHEDIqY0Jg=
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -3936,13 +3942,13 @@ vue-loader@^16.0.0-alpha.1:
     merge-source-map "^1.1.0"
     source-map "^0.6.1"
 
-vue@^3.0.0-alpha.1:
-  version "3.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.0-alpha.1.tgz#142d45c56fc1f65c2773f4f577fc0242cbb39dab"
-  integrity sha512-6yLtH27wZtqYLXbd5M0kSbHAEClV66sih5CAQ8SCvV+9JUQMF//j1mMBzf2xdoJeOPZDkNpqooB85vyJxT8e3Q==
+vue@^3.0.0-alpha.4:
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/vue/download/vue-3.0.0-alpha.4.tgz?cache=0&sync_timestamp=1580165986207&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue%2Fdownload%2Fvue-3.0.0-alpha.4.tgz#c0aa2a175820cb52dde4ca3e1b659df44ff5b2a5"
+  integrity sha1-wKoqF1ggy1Ld5Mo+G2Wd9E/1sqU=
   dependencies:
-    "@vue/compiler-dom" "3.0.0-alpha.1"
-    "@vue/runtime-dom" "3.0.0-alpha.1"
+    "@vue/compiler-dom" "3.0.0-alpha.4"
+    "@vue/runtime-dom" "3.0.0-alpha.4"
 
 watchpack@^1.6.0:
   version "1.6.0"
